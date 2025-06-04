@@ -6,4 +6,5 @@ This program calculates MHWs during the spawning seasons of two fish species: At
 1. **42-year fixed threshold heatwaves using AWI model data** 
 2. **31-year sliding threshold heatwaves using AWI model data** 
 3. **42-year fixed threshold heatwaves using OISST observational data** 
+
 The calculation scripts for the three scenarios are: - `movingbaseline.m` (sliding threshold method) - `stablebaseline.m` (fixed threshold method for AWI data) - `oisst_stablebaseline.m` (fixed threshold method for OISST data) Other `.m` files contain custom functions used in the calculations. 
